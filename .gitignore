@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+Include/
+Lib/
+Scripts/
+share/
+pyvenv.cfg
+
+# PyTorch / Model artifacts (model weights are committed intentionally)
+# Uncomment if you don't want to track .pth files:
+# *.pth
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Dataset - too large for GitHub (use Git LFS or external storage if needed)
+# dataset/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temp files
+*.log
+*.tmp
+logs/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Environment variables
+.env
+.env.local
